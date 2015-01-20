@@ -1,0 +1,61 @@
+#header {
+	display: inline;
+	float: right;
+}
+
+.logo {
+	position: absolute;
+	top:-150;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	height: 99px;
+	width: 236px;
+}
+
+input {
+	width: 400px;
+	height: 35px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+}
+
+.buttons {
+	width: 125;
+	height: 25;
+	position: absolute;
+	margin: auto;
+	top:200;
+	left:0;
+	right:0;
+	bottom:50;
+	
+	background: #DEDEDE;
+	border-style: solid;
+	border-color: #8A8A8A;
+	border-width: 1px;
+	
+}
+
+#search {
+	right: 150;
+	text-align: center;
+	font: sans-serif;
+}
+#lucky {
+	left: 150;
+	text-align: center;
+
+}
+
+li {
+	display: inline;
+	padding: 5;
+}
+
