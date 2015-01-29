@@ -1,3 +1,4 @@
+
 <html>
 	<head>
 		
@@ -8,24 +9,37 @@
 <body>
 	<div id='header'>
 		<ul>
-			<li><a href='html://www.reddit.com'>+You</a></li>
-			<li><a href='html://www.boingboing.com'>Gmail</a></li>
-			<li><a href='http://lookatthisfuckingoogle.tumblr.com/'>Images</a></li>
-			<li><a href='html://anarchistnews.com'>Funny Logo</a></li>
-			<li><a href='html://pornhub.com'>Funny Logo 2</a></li>
+			<li class='topnav'><a href='html://www.reddit.com'>+You</a></li>
+			<li class='topnav'><a href='html://www.boingboing.com'>Gmail</a></li>
+			<li class='topnav'><a href='http://lookatthisfuckingoogle.tumblr.com/'>Images</a></li>
+			<li class='topnav'><a href='html://anarchistnews.com'>Funny Logo</a></li>
+			<li class='topnav'><a href='html://pornhub.com'>Funny Logo 2</a></li>
 		</ul>
 	</div>
 
 	<div id="search">
 		<img class="logo" src='http://userpages.umbc.edu/~jbowers1/images/oogle.jpg'/>
 
-		<form class="form" action='google.com' method='get'>
-		<input type='texth' name='name'/>
+		<form action='google.com' method='get'>
+		<input type='text' name='name'/>
 		</form>
 		
 		<ul>
-			<li class='buttons' id='search'>Google Search</li>
-			<li class="buttons" id='lucky'>I'm Feeling Lucky</li>
+			<li class='buttons' id='searchbutton'>Google Search</li>
+			<li class="buttons" id='luckybutton'>I'm Feeling Lucky</li>
 		</ul>
+	</div>
+	
+	<div id="wrap">
+		<div id='bottomnav'>
+			<ul>
+				<li class="left">Advertising</li>
+				<li class="left">Business</li>
+				<li class="left">About</li>
+				<li class="right">Privacy</li>
+				<li class="right">Terms</li>
+				<li class="right">Settings</li>
+			</ul>
+		</div>
 	</div>
 </body>
